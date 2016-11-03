@@ -2,7 +2,7 @@ body {
     background-color: #fff;
     color: #000;
     margin: 0;
-    font-family: "lato",sans-serif;
+    font-family: "Open Sans",sans-serif;
 }
 
 
@@ -41,19 +41,40 @@ body {
     height: 10vh;
     color:#444;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 .parallax-divider p {
     margin: 10px 0 0 0 ;
 }
 
 .parallax-divider ul {
-    margin: 5px 0 0 5px ;
+    margin: 10px 0 0 5px ;
     list-style-type: none;
 }
 .parallax-divider li {
 display: inline-block;
     padding: 0;
 
+}
+.parallax-divider a {
+    color:#444;
+
+}
+.parallax-divider a:hover {
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color:#222;
+    text-decoration: none;
+}
+.parallax-sub {
+    font-weight: 400;
+}
+.reset-margin {
+    margin: 0;
 }
 
 /*content */
@@ -68,5 +89,5 @@ display: inline-block;
     font-size: 3.5em;
     font-weight: 700;
 }
-.div
+
 
