@@ -1,0 +1,72 @@
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    font-family: "lato",sans-serif;
+}
+
+
+/* scrolling stuff */
+.parallax-1 {
+    background: url('../assets/img/bg-1-0.jpg') no-repeat center bottom fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+.parallax-2 {
+    background: url('../assets/img/bg-2.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+.parallax-3 {
+    background: url('../assets/img/bg-3.jpg') no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+
+}
+.parallax-4 {
+    background: url('../assets/img/bg-4.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.parallax-1-div {
+    height: 10vh;
+
+}
+.parallax-divider {
+    background-color:#fff;
+    height: 10vh;
+    color:#444;
+    font-weight: 700;
+}
+.parallax-divider p {
+    margin: 10px 0 0 0 ;
+}
+
+.parallax-divider ul {
+    margin: 5px 0 0 5px ;
+    list-style-type: none;
+}
+.parallax-divider li {
+display: inline-block;
+    padding: 0;
+
+}
+
+/*content */
+
+.landing {
+    margin-top: 90vh;
+    color:#fff;
+    
+    
+}
+.landing h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.div
+
