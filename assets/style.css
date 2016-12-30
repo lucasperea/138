@@ -2,13 +2,16 @@ body {
     background-color: #fff;
     color: #000;
     margin: 0;
+    line-height: 1.5;
     font-family: "Open Sans",sans-serif;
 }
 
-
+.wrapper {
+    background: url('../assets/img/trans-bg.png');
+}
 /* scrolling stuff */
 .parallax-1 {
-    background: url('../assets/img/bg-1-0.jpg') no-repeat center  fixed;
+    background: url('../assets/img/bg-1-1.jpg') no-repeat center  fixed;
     background-size: cover;
     height: 100vh;
 
@@ -80,14 +83,35 @@ display: inline-block;
 /*content */
 
 .landing {
-    margin-top: 90vh;
+
     color:#fff;
-    
+      margin-top: 40vh;
     
 }
 .landing h1 {
+    margin-top: 1%;
     font-size: 3.5em;
     font-weight: 700;
 }
 
 
+
+
+.logo {
+    font-size: 4.5em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing:-.2em;
+    color:#fffff0;
+    border: 3px #fffff0 solid;
+    padding: .1em .5em .1em .5em;
+    background: url('../assets/img/trans-bg.png');
+  
+}
+
+.navigation {
+
+    color:#fff;
+    margin: 2%;
+    
+}
